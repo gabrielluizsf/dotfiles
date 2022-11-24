@@ -5,7 +5,7 @@
         "alignment": "left",
         "segments": [
           {
-            "background": "transparent",
+           "background":"transparent",
             "foreground": "#ffffff",
             "powerline_symbol": "\ue0b0",
             "properties": {
@@ -52,7 +52,7 @@
             "type": "node"
           },
           {
-            "background": "#077c2",
+            "background": "transparent",
             "foreground": "#ffffff",
             "powerline_symbol": "\ue0b0",
             "properties": {
@@ -169,7 +169,7 @@
             "properties": {
               "charged_icon": "\ue22f ",
               "charging_icon": "\ue234 ",
-              "discharging_icon": "\ue231 "
+              "discharging_icon": "\ue232 "
             },
             "style": "powerline",
             "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 ",
