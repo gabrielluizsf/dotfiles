@@ -24,6 +24,9 @@ alias l='ls -CF'
 
 # Export
 export PATH=~/.cargo/bin:~/.local/bin:$PATH
+export PATH=”~/.pyenv/bin:$PATH”
+eval “$(pyenv init -)”
+eval “$(pyenv virtualenv-init -)”
 
 # O MY POSH THEME
 eval "$(oh-my-posh init zsh --config ~/gabriel.omp.json)"
