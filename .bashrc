@@ -116,6 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
 . /home/gabriel/.asdf/asdf.sh
 
 . /home/gabriel/.asdf/completions/asdf.bash
