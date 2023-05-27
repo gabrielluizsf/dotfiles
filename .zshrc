@@ -20,7 +20,7 @@ alias l='ls -CF'
 
 
 
-. /home/gabriel/.asdf/asdf.sh
+. /home/gabrielluiz/.asdf/asdf.sh
 
 # Export
 export PATH=~/.cargo/bin:~/.local/bin:$PATH
