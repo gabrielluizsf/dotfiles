@@ -26,6 +26,8 @@ alias l='ls -CF'
 export PATH=~/.cargo/bin:~/.local/bin:$PATH
 
 # O MY POSH THEME
-eval "$(oh-my-posh init zsh --config ~/gabriel.omp.json)"
+# eval "$(oh-my-posh init zsh --config ~/gabriel.omp.json)"
+
+
 
 
